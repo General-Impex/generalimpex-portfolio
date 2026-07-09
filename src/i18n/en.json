@@ -1,0 +1,326 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "About Us",
+    "services": "Services",
+    "contact": "Contact Us",
+    "callUs": "Call Us Now",
+    "language": "English"
+  },
+  "hero": {
+    "title": "Your Bridge to Myanmar's Regulatory Market",
+    "subtitle": "For over 12 years, General Impex has guided international companies and local businesses through Myanmar's FDA registration landscape",
+    "cta1": "Explore our Services",
+    "cta2": "Get in Touch"
+  },
+  "stats": {
+    "title": "Myanmar's FDA Compliance Specialists",
+    "years": "12+",
+    "yearsLabel": "Years of Industry Experience",
+    "fda": "FDA",
+    "fdaLabel": "Registered Consultant Services",
+    "team": "30+",
+    "teamLabel": "In-House Pharmacist Team"
+  },
+  "services": {
+    "title": "End-to-End Regulatory & Trade Solutions",
+    "subtitle": "From FDA registration to market entry partnerships, we handle the complexity so your business can move forward with confidence.",
+    "service1": {
+      "title": "Registration Consulting",
+      "tags": ["Pharmaceutical", "Medical Device", "Cosmetics", "Food & Supplement"]
+    },
+    "service2": {
+      "title": "Distributor Sourcing",
+      "tags": ["Market Entry", "Local Network", "International Partners"]
+    },
+    "service3": {
+      "title": "Supplier Sourcing",
+      "tags": ["Import Sourcing", "Quality Assurance", "SME Support"]
+    }
+  },
+  "about": {
+    "title": "Expertise You Can Build a Business On",
+    "subtitle": "General Impex isn't just a consulting firm. We are practitioners. Our team brings pharmacist-level expertise, decade-long regulatory experience, and a hands-on approach to every client engagement",
+    "features": [
+      "Pharmacist-Led Expertise",
+      "12 Years of Proven Experience",
+      "FDA-Registered Service Provider",
+      "Local-to-Global Capability",
+      "Single Point of Contact"
+    ]
+  },
+  "testimonials": {
+    "title": "Trusted by Businesses Across Borders",
+    "subtitle": "From international companies entering Myanmar for the first time, to local SMEs scaling their operations - here's what our clients say about working with us.",
+    "client1": {
+      "name": "Dr. Aung Zaw Lin",
+      "role": "CEO, MediPhar Myanmar",
+      "quote": "We were struggling with Myanmar's complex FDA registration process for our pharmaceutical products. General Impex guided us through every step with professionalism and expertise. Their in-house pharmacist team made the entire process smooth and efficient."
+    },
+    "client2": {
+      "name": "Ms. Chen Wei",
+      "role": "Regional Director, Asia Health Corp",
+      "quote": "As an international company entering Myanmar for the first time, we needed a trusted partner who understood local regulations. General Impex not only handled our registration but also connected us with reliable local distributors."
+    }
+  },
+  "cta": {
+    "title": "Compliance\nCommerce\nCustomer",
+    "subtitle": "With precision, expertise, and an in-house pharmacist team you can trust",
+    "button": "Get In Touch"
+  },
+  "process": {
+    "title": "How We Work",
+    "subtitle": "Our streamlined process ensures your registration is handled efficiently from start to finish.",
+    "steps": [
+      {
+        "number": "01",
+        "title": "Initial Consultation",
+        "description": "We assess your business needs, product categories, and regulatory requirements to create a tailored strategy."
+      },
+      {
+        "number": "02",
+        "title": "Document Preparation",
+        "description": "Our team prepares and reviews all required documentation to meet FDA standards and specifications."
+      },
+      {
+        "number": "03",
+        "title": "Submission & Follow-up",
+        "description": "We handle the submission process and maintain regular communication with regulatory authorities."
+      },
+      {
+        "number": "04",
+        "title": "Approval & Support",
+        "description": "Once approved, we provide ongoing support for renewals, compliance updates, and market expansion."
+      }
+    ]
+  },
+  "industries": {
+    "title": "Industries We Serve",
+    "subtitle": "We provide specialized regulatory consulting across multiple industries in Myanmar's growing market.",
+    "items": [
+      {
+        "title": "Pharmaceutical",
+        "description": "Prescription drugs, OTC medicines, and traditional medicines registration and compliance."
+      },
+      {
+        "title": "Medical Devices",
+        "description": "Registration and certification for all classes of medical devices and equipment."
+      },
+      {
+        "title": "Cosmetics",
+        "description": "Product notification, safety assessment, and regulatory compliance for cosmetics."
+      },
+      {
+        "title": "Food & Supplement",
+        "description": "FDA registration for food products, dietary supplements, and health foods."
+      },
+      {
+        "title": "Agriculture",
+        "description": "Pesticides, fertilizers, and agricultural chemicals registration and compliance."
+      },
+      {
+        "title": "Consumer Products",
+        "description": "General consumer goods registration and market entry support."
+      }
+    ]
+  },
+  "whyChooseUs": {
+    "title": "Why Choose General Impex",
+    "subtitle": "We combine deep local expertise with international standards to deliver exceptional results.",
+    "items": [
+      {
+        "title": "Pharmacist-Led Team",
+        "description": "Our in-house team of 30+ pharmacists ensures expert handling of all regulatory requirements."
+      },
+      {
+        "title": "12+ Years Experience",
+        "description": "Over a decade of proven success in Myanmar's regulatory landscape."
+      },
+      {
+        "title": "One-Stop Solution",
+        "description": "From registration to market entry, we handle everything under one roof."
+      },
+      {
+        "title": "Local & Global Network",
+        "description": "Strong connections with local authorities and international partners."
+      },
+      {
+        "title": "Fast Turnaround",
+        "description": "Efficient processes that minimize delays and maximize your time to market."
+      },
+      {
+        "title": "Transparent Pricing",
+        "description": "Clear, upfront pricing with no hidden fees or surprise charges."
+      }
+    ]
+  },
+  "faq": {
+    "title": "Frequently Asked Questions",
+    "subtitle": "Find answers to common questions about our services and the registration process.",
+    "items": [
+      {
+        "question": "How long does the FDA registration process take?",
+        "answer": "The timeline varies by product category. Typically, pharmaceutical registration takes 3-6 months, while medical devices and cosmetics can take 2-4 months. We work to expedite the process wherever possible."
+      },
+      {
+        "question": "What documents are required for registration?",
+        "answer": "Required documents include product specifications, manufacturing licenses, free sale certificates, stability data, and lab test reports. We provide a detailed checklist based on your specific product category."
+      },
+      {
+        "question": "Do I need a local partner in Myanmar?",
+        "answer": "Yes, foreign companies typically need a local authorized representative or distributor. We can help connect you with trusted local partners through our extensive network."
+      },
+      {
+        "question": "What are your service fees?",
+        "answer": "Our fees depend on the scope of services required. We offer transparent pricing and will provide a detailed quote after the initial consultation. Contact us for a free assessment."
+      },
+      {
+        "question": "Do you provide ongoing support after registration?",
+        "answer": "Yes, we offer comprehensive post-registration support including renewals, compliance updates, label reviews, and regulatory change notifications."
+      }
+    ]
+  },
+  "footer": {
+    "address": "No.25, 5th Floor, Peace Condo, 50th St (Lower Block), Botataoung Tsp, Yangon, Myanmar",
+    "navTitle": "Navigation Links",
+    "contactTitle": "Contact Info",
+    "email": "info.generalimpex@gmail.com",
+    "phone": "09 250 109 161"
+  },
+  "aboutPage": {
+    "title": "About General Impex",
+    "subtitle": "Your Trusted Partner in Myanmar's Regulatory Landscape",
+    "description": "General Impex has been at the forefront of regulatory consulting in Myanmar for over 12 years. We specialize in helping businesses navigate the complex FDA registration process.",
+    "featuresTitle": "Why Choose Us",
+    "teamTitle": "Our Team",
+    "teamSubtitle": "Meet the experts behind General Impex",
+    "mission": {
+      "title": "Our Mission & Vision",
+      "mission": {
+        "label": "Mission",
+        "text": "To simplify Myanmar's regulatory landscape for businesses by providing expert guidance, reliable support, and efficient solutions that enable our clients to focus on what they do best - growing their business."
+      },
+      "vision": {
+        "label": "Vision",
+        "text": "To be Myanmar's most trusted regulatory consulting partner, recognized for our expertise, integrity, and commitment to helping businesses succeed in a complex regulatory environment."
+      }
+    },
+    "timeline": {
+      "title": "Our Journey",
+      "subtitle": "From a small consulting firm to Myanmar's leading regulatory partner",
+      "events": [
+        {
+          "year": "2012",
+          "title": "Founded",
+          "description": "General Impex was established in Yangon with a small team of 5 pharmacists."
+        },
+        {
+          "year": "2015",
+          "title": "FDA Registration",
+          "description": "Became an officially registered FDA consultant service provider."
+        },
+        {
+          "year": "2018",
+          "title": "Team Expansion",
+          "description": "Grew to 20+ team members including pharmacists, regulatory specialists, and legal experts."
+        },
+        {
+          "year": "2020",
+          "title": "International Reach",
+          "description": "Started serving international companies entering Myanmar market."
+        },
+        {
+          "year": "2023",
+          "title": "100+ Clients",
+          "description": "Reached milestone of serving over 100 businesses across multiple industries."
+        },
+        {
+          "year": "2024",
+          "title": "30+ Pharmacists",
+          "description": "Expanded in-house pharmacist team to 30+ professionals."
+        }
+      ]
+    },
+    "partners": {
+      "title": "Partners & Certifications",
+      "subtitle": "Trusted by leading organizations and certified by official authorities"
+    }
+  },
+  "servicesPage": {
+    "title": "Our Services",
+    "subtitle": "Comprehensive Solutions for Your Business Needs",
+    "description": "We offer a wide range of services to help your business succeed in Myanmar's regulated market.",
+    "registration": {
+      "title": "Registration Consulting",
+      "description": "Expert guidance through Myanmar's FDA registration process for pharmaceuticals, medical devices, cosmetics, and food supplements."
+    },
+    "distributor": {
+      "title": "Distributor Sourcing",
+      "description": "Connect with trusted local distributors to expand your market reach in Myanmar."
+    },
+    "supplier": {
+      "title": "Supplier Sourcing",
+      "description": "Find reliable suppliers for your business needs with our extensive network."
+    },
+    "approach": {
+      "title": "Our Approach",
+      "subtitle": "A proven methodology that delivers results every time",
+      "steps": [
+        {
+          "number": "01",
+          "title": "Understand",
+          "description": "We take the time to understand your business, products, and goals before recommending any solution."
+        },
+        {
+          "number": "02",
+          "title": "Strategize",
+          "description": "Our team develops a customized regulatory strategy tailored to your specific needs and timeline."
+        },
+        {
+          "number": "03",
+          "title": "Execute",
+          "description": "We handle all documentation, submissions, and communications with regulatory authorities."
+        },
+        {
+          "number": "04",
+          "title": "Deliver",
+          "description": "We deliver results on time and provide ongoing support to ensure continued compliance."
+        }
+      ]
+    }
+  },
+  "contactPage": {
+    "title": "Contact Us",
+    "subtitle": "Get in Touch with Our Team",
+    "description": "Have questions? We'd love to hear from you. Send us a message and we'll respond as soon as possible.",
+    "form": {
+      "name": "Your Name",
+      "email": "Email Address",
+      "phone": "Phone Number",
+      "message": "Your Message",
+      "submit": "Send Message"
+    },
+    "info": {
+      "title": "Contact Information",
+      "address": "No.25, 5th Floor, Peace Condo, 50th St (Lower Block), Botataoung Tsp, Yangon, Myanmar",
+      "email": "info.generalimpex@gmail.com",
+      "phone": "09 250 109 161"
+    },
+    "map": {
+      "title": "Our Location"
+    },
+    "hours": {
+      "title": "Business Hours",
+      "weekdays": "Monday - Friday",
+      "weekdaysTime": "9:00 AM - 5:00 PM",
+      "saturday": "Saturday",
+      "saturdayTime": "9:00 AM - 12:00 PM",
+      "sunday": "Sunday",
+      "sundayTime": "Closed"
+    },
+    "social": {
+      "title": "Follow Us",
+      "subtitle": "Stay connected with us on social media"
+    }
+  }
+}
