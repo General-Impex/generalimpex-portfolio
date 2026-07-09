@@ -1,9 +1,9 @@
-import { Link } from 'react-router-dom';
-import { useTranslation } from 'react-i18next';
-import { motion } from 'framer-motion';
-import Container from '../layout/Container';
-import Button from '../ui/Button';
-import ctaBg from '../../assets/images/cta-bg.png';
+import { Link } from "react-router-dom";
+import { useTranslation } from "react-i18next";
+import { motion } from "framer-motion";
+import Container from "../layout/Container";
+import Button from "../ui/Button";
+import ctaBg from "../../assets/images/cta-bg.png";
 
 const CTASection = () => {
   const { t } = useTranslation();
@@ -26,7 +26,7 @@ const CTASection = () => {
             transition={{ duration: 0.8 }}
             className="font-heading font-bold text-[48px] text-white text-center lg:text-left whitespace-pre-line"
           >
-            {t('cta.title')}
+            {t("cta.title")}
           </motion.h2>
 
           <motion.div
@@ -36,12 +36,13 @@ const CTASection = () => {
             transition={{ duration: 0.8, delay: 0.2 }}
             className="bg-white p-6 md:p-[24px_32px] rounded-sm flex flex-col justify-center gap-9"
           >
-            <p className="font-heading font-bold text-xl text-primary">
-              {t('cta.subtitle')}
+            <p className="font-heading text-[30px] font-bold text-primary">
+              With precision, expertise, and an <br /> in-house pharmacist team
+              you can trust
             </p>
             <Link to="/contact">
               <Button variant="primary">
-                {t('cta.button')}
+                <span>{t("cta.button")}</span>
               </Button>
             </Link>
           </motion.div>
