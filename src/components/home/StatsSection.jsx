@@ -33,7 +33,7 @@ const StatsSection = () => {
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true }}
                 transition={{ duration: 0.6, delay: index * 0.2 }}
-                className="flex flex-col gap-1 pt-3 border-t-2 border-primary"
+                className="flex flex-col items-center gap-1 pt-3 border-t-2 border-primary"
               >
                 <span className="font-body font-bold text-[48px] text-primary">
                   {stat.number}

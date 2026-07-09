@@ -19,7 +19,7 @@ const HeroBanner = () => {
               initial={{ opacity: 0, x: -50 }}
               animate={{ opacity: 1, x: 0 }}
               transition={{ duration: 0.8 }}
-              className="flex flex-col items-center gap-6 max-w-[602px]"
+              className="flex flex-col gap-6 max-w-[602px]"
             >
               <h1 className="font-heading font-bold text-[48px] text-white leading-tight">
                 {t("hero.title")}
