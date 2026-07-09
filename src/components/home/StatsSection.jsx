@@ -1,14 +1,14 @@
-import { useTranslation } from 'react-i18next';
-import { motion } from 'framer-motion';
-import Container from '../layout/Container';
+import { useTranslation } from "react-i18next";
+import { motion } from "framer-motion";
+import Container from "../layout/Container";
 
 const StatsSection = () => {
   const { t } = useTranslation();
 
   const stats = [
-    { number: t('stats.years'), label: t('stats.yearsLabel') },
-    { number: t('stats.fda'), label: t('stats.fdaLabel') },
-    { number: t('stats.team'), label: t('stats.teamLabel') },
+    { number: t("stats.years"), label: t("stats.yearsLabel") },
+    { number: t("stats.fda"), label: t("stats.fdaLabel") },
+    { number: t("stats.team"), label: t("stats.teamLabel") },
   ];
 
   return (
@@ -22,7 +22,7 @@ const StatsSection = () => {
             transition={{ duration: 0.6 }}
             className="font-heading font-bold text-2xl text-primary text-center"
           >
-            {t('stats.title')}
+            {t("stats.title")}
           </motion.h2>
 
           <div className="flex flex-col md:flex-row justify-between items-center w-full max-w-[1068px] gap-8">
@@ -33,7 +33,7 @@ const StatsSection = () => {
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true }}
                 transition={{ duration: 0.6, delay: index * 0.2 }}
-                className="flex flex-col items-center gap-1 pt-3 border-t-2 border-primary"
+                className="flex flex-col gap-1 pt-3 border-t-2 border-primary"
               >
                 <span className="font-body font-bold text-[48px] text-primary">
                   {stat.number}

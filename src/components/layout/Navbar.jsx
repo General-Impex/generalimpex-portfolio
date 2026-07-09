@@ -4,6 +4,8 @@ import { useTranslation } from "react-i18next";
 import { motion, AnimatePresence } from "framer-motion";
 import Container from "./Container";
 import logo from "../../assets/images/logo.png";
+import mmFlag from "../../assets/images/mm-flag.png";
+import enFlag from "../../assets/images/en-flag.png";
 
 const Navbar = () => {
   const { t, i18n } = useTranslation();
@@ -48,31 +50,9 @@ const Navbar = () => {
 
   const FlagIcon = ({ lang }) => {
     if (lang === "mm") {
-      return (
-        <svg
-          className="w-5 h-[15px]"
-          viewBox="0 0 20 15"
-          fill="none"
-          xmlns="http://www.w3.org/2000/svg"
-        >
-          <rect width="20" height="15" fill="#FECB00" />
-          <rect y="5" width="20" height="5" fill="#34B233" />
-          <rect y="10" width="20" height="5" fill="#EA2839" />
-        </svg>
-      );
+      return <img src={mmFlag} alt="Myanmar" className="w-5 h-[15px]" />;
     }
-    return (
-      <svg
-        className="w-5 h-[15px]"
-        viewBox="0 0 20 15"
-        fill="none"
-        xmlns="http://www.w3.org/2000/svg"
-      >
-        <rect width="20" height="5" fill="#B22234" />
-        <rect y="5" width="20" height="5" fill="#FFFFFF" />
-        <rect y="10" width="20" height="5" fill="#B22234" />
-      </svg>
-    );
+    return <img src={enFlag} alt="English" className="w-5 h-[15px]" />;
   };
 
   return (
