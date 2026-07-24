@@ -9,7 +9,7 @@
   },
   "hero": {
     "title": "Your Bridge to Myanmar's Regulatory Market",
-    "subtitle": "General Impex is a professional service provider specializing in Registration, Regulatory, Documentation, and Business Support Services. We assist businesses, investors, manufacturers, importers, exporters, healthcare organizations, and entrepreneurs in complying with applicable legal and regulatory requirements.",
+    "subtitle": "General Impex is a professional service provider specializing in Registration, Regulatory, Documentation, and Business Support Services.",
     "cta1": "Explore our Services",
     "cta2": "Get in Touch"
   },
@@ -29,29 +29,17 @@
       {
         "title": "Company Registration Services",
         "description": "We assist with complete company registration processes to establish your business legally in Myanmar.",
-        "tags": [
-          "Business Registration",
-          "Legal Compliance",
-          "Corporate Setup"
-        ]
+        "tags": ["Business Registration", "Legal Compliance", "Corporate Setup"]
       },
       {
         "title": "Import & Export Registration",
         "description": "We handle import and export registration, trade licensing, and customs compliance for international trade.",
-        "tags": [
-          "Import License",
-          "Export License",
-          "Trade Registration"
-        ]
+        "tags": ["Import License", "Export License", "Trade Registration"]
       },
       {
         "title": "Regulatory Compliance Support",
         "description": "We ensure your business meets all regulatory requirements with our comprehensive compliance services.",
-        "tags": [
-          "Government Liaison",
-          "Compliance Audit",
-          "Regulatory Updates"
-        ]
+        "tags": ["Government Liaison", "Compliance Audit", "Regulatory Updates"]
       },
       {
         "title": "Government Licensing Assistance",
@@ -65,56 +53,32 @@
       {
         "title": "Documentation Preparation & Verification",
         "description": "We prepare and verify all required documentation to meet regulatory standards and specifications.",
-        "tags": [
-          "Document Prep",
-          "Verification",
-          "Translation"
-        ]
+        "tags": ["Document Prep", "Verification", "Translation"]
       },
       {
         "title": "Business Consultancy Services",
         "description": "We provide expert business consultancy to help you navigate Myanmar's business landscape.",
-        "tags": [
-          "Market Entry",
-          "Strategy",
-          "Advisory"
-        ]
+        "tags": ["Market Entry", "Strategy", "Advisory"]
       },
       {
         "title": "Administrative & Business Support",
         "description": "We offer administrative and business support services to improve your operational efficiency.",
-        "tags": [
-          "Admin Support",
-          "Operations",
-          "Efficiency"
-        ]
+        "tags": ["Admin Support", "Operations", "Efficiency"]
       },
       {
         "title": "Permit and Approval Processing",
         "description": "We handle all permit and approval processing with government authorities on your behalf.",
-        "tags": [
-          "Permit Application",
-          "Approval Tracking",
-          "Follow-up"
-        ]
+        "tags": ["Permit Application", "Approval Tracking", "Follow-up"]
       },
       {
         "title": "Corporate Documentation Management",
         "description": "We manage your corporate documentation including records, filings, and compliance documents.",
-        "tags": [
-          "Record Keeping",
-          "Filing",
-          "Document Management"
-        ]
+        "tags": ["Record Keeping", "Filing", "Document Management"]
       },
       {
         "title": "Customer Support & Advisory",
         "description": "We provide ongoing customer support and advisory services to address your business needs.",
-        "tags": [
-          "Support",
-          "Advisory",
-          "Consultation"
-        ]
+        "tags": ["Support", "Advisory", "Consultation"]
       }
     ]
   },
