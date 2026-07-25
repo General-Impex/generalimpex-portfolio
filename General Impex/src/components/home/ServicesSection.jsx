@@ -1,23 +1,23 @@
-import { useTranslation } from 'react-i18next';
-import { motion } from 'framer-motion';
-import Container from '../layout/Container';
-import SectionTitle from '../ui/SectionTitle';
+import { useTranslation } from "react-i18next";
+import { motion } from "framer-motion";
+import Container from "../layout/Container";
+import SectionTitle from "../ui/SectionTitle";
 
-import serviceCompanyReg from '../../assets/images/service-company-reg.jpg';
-import serviceImportExportNew from '../../assets/images/service-import-export-new.jpg';
-import serviceRegulatory from '../../assets/images/service-regulatory-new.jpg';
-import serviceGovLicensing from '../../assets/images/service-gov-licensing.jpg';
+import serviceCompanyReg from "../../assets/images/service-company-reg.jpeg";
+import serviceImportExportNew from "../../assets/images/service-import-export-new.jpeg";
+import serviceRegulatory from "../../assets/images/service-regulatory-new.jpeg";
+import serviceGovLicensing from "../../assets/images/service-gov-licensing.jpeg";
 
 const ServicesSection = () => {
   const { t } = useTranslation();
 
-  const services = t('services.items', { returnObjects: true });
+  const services = t("services.items", { returnObjects: true });
 
   const serviceImages = [
-    serviceCompanyReg,  // Company Registration
-    serviceImportExportNew,  // Import & Export
-    serviceRegulatory,  // Regulatory Compliance
-    serviceGovLicensing,  // Government Licensing
+    serviceCompanyReg, // Company Registration
+    serviceImportExportNew, // Import & Export
+    serviceRegulatory, // Regulatory Compliance
+    serviceGovLicensing, // Government Licensing
   ];
 
   return (
@@ -25,8 +25,8 @@ const ServicesSection = () => {
       <Container>
         <div className="px-6 md:px-[63px] flex flex-col gap-12">
           <SectionTitle
-            title={t('services.title')}
-            subtitle={t('services.subtitle')}
+            title={t("services.title")}
+            subtitle={t("services.subtitle")}
           />
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
