@@ -5,16 +5,16 @@ import Container from '../components/layout/Container';
 import SectionTitle from '../components/ui/SectionTitle';
 import CTASection from '../components/home/CTASection';
 
-import serviceCompanyReg from '../assets/images/service-company-reg.jpg';
-import serviceImportExportNew from '../assets/images/service-import-export-new.jpg';
-import serviceRegulatory from '../assets/images/service-regulatory-new.jpg';
-import serviceGovLicensing from '../assets/images/service-gov-licensing.jpg';
-import serviceDocumentationNew from '../assets/images/service-documentation-new.jpg';
-import serviceConsultancyNew from '../assets/images/service-consultancy-new.jpg';
-import serviceAdminNew from '../assets/images/service-admin-new.jpg';
-import servicePermitNew from '../assets/images/service-permit-new.jpg';
-import serviceCorporateNew from '../assets/images/service-corporate-new.jpg';
-import serviceSupportNew from '../assets/images/service-support-new.jpg';
+import serviceCompanyReg from '../assets/images/service-company-reg.jpeg';
+import serviceImportExportNew from '../assets/images/service-import-export-new.jpeg';
+import serviceRegulatory from '../assets/images/service-regulatory-new.jpeg';
+import serviceGovLicensing from '../assets/images/service-gov-licensing.jpeg';
+import serviceDocumentationNew from '../assets/images/service-documentation-new.jpeg';
+import serviceConsultancyNew from '../assets/images/service-consultancy-new.jpeg';
+import serviceAdminNew from '../assets/images/service-admin-new.jpeg';
+import servicePermitNew from '../assets/images/service-permit-new.jpeg';
+import serviceCorporateNew from '../assets/images/service-corporate-new.jpeg';
+import serviceSupportNew from '../assets/images/service-support-new.jpeg';
 
 const Services = () => {
   const { t } = useTranslation();
@@ -61,9 +61,8 @@ const Services = () => {
                   whileInView={{ opacity: 1, y: 0 }}
                   viewport={{ once: true }}
                   transition={{ duration: 0.6 }}
-                  className={`flex flex-col ${
-                    index % 2 === 0 ? 'lg:flex-row' : 'lg:flex-row-reverse'
-                  } gap-8 items-center`}
+                  className={`flex flex-col ${index % 2 === 0 ? 'lg:flex-row' : 'lg:flex-row-reverse'
+                    } gap-8 items-center`}
                 >
                   <div className="flex-1">
                     <img

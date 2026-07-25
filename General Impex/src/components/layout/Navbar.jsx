@@ -60,7 +60,7 @@ const Navbar = () => {
       animate={{ y: 0 }}
       className="fixed top-0 left-0 right-0 z-50"
     >
-      <div className="max-w-[1280px] mx-auto px-[63px]">
+      <div className="max-w-[1280px] mx-auto lg:px-[63px]">
         <div className="bg-white rounded-sm shadow-[0px_0px_2px_0px_rgba(13,59,48,0.5)] px-6 py-2">
           <div className="flex items-center justify-between">
             {/* Logo */}
@@ -80,11 +80,10 @@ const Navbar = () => {
                   <Link
                     key={link.path}
                     to={link.path}
-                    className={`font-heading text-base px-2.5 py-2.5 transition-colors duration-300 ${
-                      isActive
-                        ? "text-gray font-bold"
-                        : "text-dark-gray font-normal hover:text-gray"
-                    }`}
+                    className={`font-heading text-base px-2.5 py-2.5 transition-colors duration-300 ${isActive
+                      ? "text-gray font-bold"
+                      : "text-dark-gray font-normal hover:text-gray"
+                      }`}
                   >
                     {link.label}
                   </Link>
@@ -105,9 +104,8 @@ const Navbar = () => {
                     {currentLang}
                   </span>
                   <svg
-                    className={`w-4 h-4 text-black transition-transform ${
-                      langDropdownOpen ? "rotate-180" : ""
-                    }`}
+                    className={`w-4 h-4 text-black transition-transform ${langDropdownOpen ? "rotate-180" : ""
+                      }`}
                     fill="none"
                     stroke="currentColor"
                     viewBox="0 0 24 24"
@@ -132,21 +130,19 @@ const Navbar = () => {
                     >
                       <button
                         onClick={() => changeLanguage("en")}
-                        className={`w-full px-4 py-2 text-left font-heading text-sm hover:bg-light-gray transition-colors ${
-                          i18n.language === "en"
-                            ? "text-primary font-bold bg-light-gray"
-                            : "text-dark-gray"
-                        }`}
+                        className={`w-full px-4 py-2 text-left font-heading text-sm hover:bg-light-gray transition-colors ${i18n.language === "en"
+                          ? "text-primary font-bold bg-light-gray"
+                          : "text-dark-gray"
+                          }`}
                       >
                         English
                       </button>
                       <button
                         onClick={() => changeLanguage("mm")}
-                        className={`w-full px-4 py-2 text-left font-heading text-sm hover:bg-light-gray transition-colors ${
-                          i18n.language === "mm"
-                            ? "text-primary font-bold bg-light-gray"
-                            : "text-dark-gray"
-                        }`}
+                        className={`w-full px-4 py-2 text-left font-heading text-sm hover:bg-light-gray transition-colors ${i18n.language === "mm"
+                          ? "text-primary font-bold bg-light-gray"
+                          : "text-dark-gray"
+                          }`}
                       >
                         Myanmar
                       </button>
@@ -170,19 +166,16 @@ const Navbar = () => {
               onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
             >
               <span
-                className={`block w-6 h-0.5 bg-primary transition-all ${
-                  mobileMenuOpen ? "rotate-45 translate-y-2" : ""
-                }`}
+                className={`block w-6 h-0.5 bg-primary transition-all ${mobileMenuOpen ? "rotate-45 translate-y-2" : ""
+                  }`}
               ></span>
               <span
-                className={`block w-6 h-0.5 bg-primary transition-all ${
-                  mobileMenuOpen ? "opacity-0" : ""
-                }`}
+                className={`block w-6 h-0.5 bg-primary transition-all ${mobileMenuOpen ? "opacity-0" : ""
+                  }`}
               ></span>
               <span
-                className={`block w-6 h-0.5 bg-primary transition-all ${
-                  mobileMenuOpen ? "-rotate-45 -translate-y-2" : ""
-                }`}
+                className={`block w-6 h-0.5 bg-primary transition-all ${mobileMenuOpen ? "-rotate-45 -translate-y-2" : ""
+                  }`}
               ></span>
             </button>
           </div>
@@ -196,7 +189,7 @@ const Navbar = () => {
             initial={{ opacity: 0, height: 0 }}
             animate={{ opacity: 1, height: "auto" }}
             exit={{ opacity: 0, height: 0 }}
-            className="lg:hidden bg-white shadow-[0px_0px_2px_0px_rgba(13,59,48,0.5)] mx-[63px] mt-2 rounded-sm"
+            className="lg:hidden bg-white shadow-[0px_0px_2px_0px_rgba(13,59,48,0.5)] rounded-sm"
           >
             <div className="px-6 py-4 flex flex-col gap-4">
               {navLinks.map((link) => {
@@ -206,11 +199,10 @@ const Navbar = () => {
                     key={link.path}
                     to={link.path}
                     onClick={() => setMobileMenuOpen(false)}
-                    className={`font-heading text-lg py-2 ${
-                      isActive
-                        ? "text-gray font-bold"
-                        : "text-dark-gray font-normal"
-                    }`}
+                    className={`font-heading text-lg py-2 ${isActive
+                      ? "text-gray font-bold"
+                      : "text-dark-gray font-normal"
+                      }`}
                   >
                     {link.label}
                   </Link>
@@ -219,28 +211,24 @@ const Navbar = () => {
 
               {/* Mobile Language Switch */}
               <div className="border-t pt-4">
-                <p className="font-heading text-sm text-gray mb-2">
-                  {t("nav.language")}
-                </p>
-                <div className="flex gap-2">
+
+                <div className="flex gap-5">
                   <button
                     onClick={() => changeLanguage("en")}
-                    className={`flex items-center gap-2 px-4 py-2 rounded-sm font-heading text-sm ${
-                      i18n.language === "en"
-                        ? "bg-primary text-white"
-                        : "bg-light-gray text-dark-gray"
-                    }`}
+                    className={`flex items-center gap-2 px-8 py-3 rounded-sm font-heading text-sm ${i18n.language === "en"
+                      ? "bg-primary text-white"
+                      : "bg-light-gray text-dark-gray"
+                      }`}
                   >
                     <FlagIcon lang="en" />
                     English
                   </button>
                   <button
                     onClick={() => changeLanguage("mm")}
-                    className={`flex items-center gap-2 px-4 py-2 rounded-sm font-heading text-sm ${
-                      i18n.language === "mm"
-                        ? "bg-primary text-white"
-                        : "bg-light-gray text-dark-gray"
-                    }`}
+                    className={`flex items-center gap-2 px-8 py-3 rounded-sm font-heading text-sm ${i18n.language === "mm"
+                      ? "bg-primary text-white"
+                      : "bg-light-gray text-dark-gray"
+                      }`}
                   >
                     <FlagIcon lang="mm" />
                     Myanmar

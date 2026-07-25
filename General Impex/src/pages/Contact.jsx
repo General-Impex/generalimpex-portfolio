@@ -183,13 +183,13 @@ const Contact = () => {
             </h2>
             <div className="w-full h-[400px] rounded-lg overflow-hidden shadow-[0px_0px_2px_0px_rgba(13,59,48,0.15)]">
               <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3819.1234567890123!2d96.1561234!3d16.8661234!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMTbCsDUxJzU4LjAiTiA5NsKwMDknMjIuMCJF!5e0!3m2!1sen!2smm!4v1234567890123"
+                src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d238.7564579974095!2d96.17096496965712!3d16.771534079827365!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2ssg!4v1784989744967!5m2!1sen!2ssg"
                 width="100%"
                 height="100%"
                 style={{ border: 0 }}
                 allowFullScreen=""
                 loading="lazy"
-                referrerPolicy="no-referrer-when-downgrade"
+                referrerPolicy="strict-origin-when-cross-origin"
                 title="General Impex Location"
               />
             </div>

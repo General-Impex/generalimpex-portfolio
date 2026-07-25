@@ -3,7 +3,7 @@ import { useTranslation } from 'react-i18next';
 import { motion } from 'framer-motion';
 import Container from '../layout/Container';
 import Button from '../ui/Button';
-import heroBg from '../../assets/images/hero-bg-main.jpg';
+import heroBg from '../../assets/images/hero-bg-main.jpeg';
 
 const HeroBanner = () => {
   const { t } = useTranslation();
@@ -16,10 +16,10 @@ const HeroBanner = () => {
         alt=""
         className="absolute inset-0 w-full h-full object-cover"
       />
-      
+
       {/* Brand Color Shade - Emerald Green */}
       <div className="absolute inset-0 bg-[#00674F]/60"></div>
-      
+
       <Container>
         <div className="relative z-10 px-6 md:px-[63px] py-16">
           <motion.div

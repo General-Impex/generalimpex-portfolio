@@ -3,7 +3,7 @@ import { useTranslation } from "react-i18next";
 import { motion } from "framer-motion";
 import Container from "../layout/Container";
 import Button from "../ui/Button";
-import ctaBg from "../../assets/images/cta-bg.png";
+import ctaBg from "../../assets/images/cta-bg.jpeg";
 
 const CTASection = () => {
   const { t } = useTranslation();

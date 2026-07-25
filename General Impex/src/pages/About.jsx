@@ -4,7 +4,7 @@ import PageHeader from '../components/ui/PageHeader';
 import Container from '../components/layout/Container';
 import SectionTitle from '../components/ui/SectionTitle';
 import CTASection from '../components/home/CTASection';
-import aboutImage from '../assets/images/about-page-main.jpg';
+import aboutImage from '../assets/images/about-page-main.jpeg';
 import isoCert1 from '../assets/images/iso-cert-1.jpg';
 import isoCert2 from '../assets/images/iso-cert-2.jpg';
 import isoCert3 from '../assets/images/iso-cert-3.jpg';
@@ -159,9 +159,8 @@ const About = () => {
                     whileInView={{ opacity: 1, y: 0 }}
                     viewport={{ once: true }}
                     transition={{ duration: 0.5, delay: index * 0.1 }}
-                    className={`flex flex-col lg:flex-row items-center gap-8 ${
-                      index % 2 === 0 ? '' : 'lg:flex-row-reverse'
-                    }`}
+                    className={`flex flex-col lg:flex-row items-center gap-8 ${index % 2 === 0 ? '' : 'lg:flex-row-reverse'
+                      }`}
                   >
                     <div className={`flex-1 ${index % 2 === 0 ? 'lg:text-right' : 'lg:text-left'}`}>
                       <div className="bg-white p-6 rounded-sm shadow-[0px_0px_2px_0px_rgba(13,59,48,0.15)]">
@@ -184,7 +183,7 @@ const About = () => {
                     <div className="flex-1" />
                   </motion.div>
                 ))}
-               </div>
+              </div>
             </div>
           </div>
         </Container>
