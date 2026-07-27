@@ -4,6 +4,7 @@ import { motion } from 'framer-motion';
 import Container from '../layout/Container';
 import Button from '../ui/Button';
 import heroBg from '../../assets/images/hero-bg-main.jpeg';
+import heroBgMobile from '../../assets/images/hero-banner-mobile.jpg';
 
 const HeroBanner = () => {
   const { t } = useTranslation();
@@ -11,11 +12,14 @@ const HeroBanner = () => {
   return (
     <section className="relative min-h-[640px] flex items-center overflow-hidden pt-24">
       {/* Background Image */}
-      <img
-        src={heroBg}
-        alt=""
-        className="absolute inset-0 w-full h-full object-cover"
-      />
+      <picture className="absolute inset-0 w-full h-full">
+        <source media="(max-width: 767px)" srcSet={heroBgMobile} />
+        <img
+          src={heroBg}
+          alt=""
+          className="w-full h-full object-cover"
+        />
+      </picture>
 
       {/* Brand Color Shade - Emerald Green */}
       <div className="absolute inset-0 bg-[#00674F]/60"></div>

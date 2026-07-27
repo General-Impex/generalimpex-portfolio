@@ -58,3 +58,67 @@ body {
     text-wrap: balance;
   }
 }
+
+/* Reduce font sizes globally when Myanmar language is active */
+html[lang="mm"] {
+  font-size: 14.5px; /* Scales rem-based font sizes down by approx 10% */
+  line-height: 1.8;  /* Increased line height for Burmese script readability */
+}
+
+html[lang="mm"] body {
+  line-height: 1.8;
+}
+
+html[lang="mm"] h1,
+html[lang="mm"] h2,
+html[lang="mm"] h3,
+html[lang="mm"] h4,
+html[lang="mm"] h5,
+html[lang="mm"] h6 {
+  line-height: 1.5 !important;
+}
+
+/* Adjust Tailwind leading utilities for Myanmar script */
+html[lang="mm"] .leading-none {
+  line-height: 1.4 !important;
+}
+html[lang="mm"] .leading-tight {
+  line-height: 1.5 !important;
+}
+html[lang="mm"] .leading-snug {
+  line-height: 1.6 !important;
+}
+html[lang="mm"] .leading-normal {
+  line-height: 1.8 !important;
+}
+html[lang="mm"] .leading-relaxed {
+  line-height: 2.0 !important;
+}
+html[lang="mm"] .leading-loose {
+  line-height: 2.2 !important;
+}
+
+html[lang="mm"] .text-\[48px\] {
+  font-size: 40px !important;
+}
+
+html[lang="mm"] .text-\[40px\] {
+  font-size: 34px !important;
+}
+
+html[lang="mm"] .text-\[32px\] {
+  font-size: 27px !important;
+}
+
+html[lang="mm"] .text-\[30px\] {
+  font-size: 25px !important;
+}
+
+html[lang="mm"] .text-\[28px\] {
+  font-size: 24px !important;
+}
+
+html[lang="mm"] .text-\[24px\] {
+  font-size: 21px !important;
+}
+

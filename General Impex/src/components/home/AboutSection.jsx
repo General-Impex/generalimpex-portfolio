@@ -1,7 +1,7 @@
 import { useTranslation } from 'react-i18next';
 import { motion } from 'framer-motion';
 import Container from '../layout/Container';
-import aboutImage from '../../assets/images/about-section.jpg';
+import aboutImage from '../../assets/images/about-page-main.jpeg';
 
 const AboutSection = () => {
   const { t } = useTranslation();
