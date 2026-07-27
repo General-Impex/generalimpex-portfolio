@@ -18,8 +18,8 @@ const TestimonialsSection = () => {
       <Container>
         <div className="px-6 md:px-[63px] flex flex-col items-center gap-12">
           <SectionTitle
-            title={t('testimonials.title')}
-            subtitle={t('testimonials.subtitle')}
+            title={t('trustedBy.title')}
+            subtitle={t('trustedBy.subtitle')}
             centered
           />
 

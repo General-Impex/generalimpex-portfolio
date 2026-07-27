@@ -108,6 +108,10 @@
       }
     }
   },
+  "trustedBy": {
+    "title": "Businesses We Work With",
+    "subtitle": "Trusted by international companies entering Myanmar and growing local enterprises."
+  },
   "testimonials": {
     "title": "Trusted by Businesses Across Borders",
     "subtitle": "From international companies entering Myanmar for the first time, to local SMEs scaling their operations - here's what our clients say about working with us.",
@@ -124,7 +128,7 @@
   },
   "cta": {
     "title": "Compliance\nCommerce\nCustomer",
-    "subtitle": "With competence, responsibility, and consistency in delivering high-quality services",
+    "subtitle": "With precision, expertise, and an in-house pharmacist team you can trust",
     "button": "Get In Touch"
   },
   "process": {

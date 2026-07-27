@@ -37,8 +37,7 @@ const CTASection = () => {
             className="bg-white p-6 md:p-[24px_32px] rounded-sm flex flex-col justify-center gap-9"
           >
             <p className="font-heading text-[30px] font-bold text-primary">
-              With precision, expertise, and an <br /> in-house pharmacist team
-              you can trust
+              {t("cta.subtitle")}
             </p>
             <Link to="/contact">
               <Button variant="primary">
