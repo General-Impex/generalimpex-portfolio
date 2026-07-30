@@ -202,28 +202,16 @@
     "subtitle": "We provide specialized registration, regulatory, and business support services across multiple industries in Myanmar.",
     "items": [
       {
-        "title": "Manufacturing",
-        "description": "Factory registration, production licenses, and manufacturing compliance services."
-      },
-      {
-        "title": "Import & Export",
-        "description": "Trade registration, import/export licenses, and customs compliance support."
-      },
-      {
         "title": "Healthcare",
         "description": "Medical device registration, pharmaceutical licensing, and healthcare compliance."
       },
       {
-        "title": "Food & Beverage",
-        "description": "Food safety registration, F&B licensing, and regulatory compliance services."
+        "title": "FDA Regulated Manufacturing",
+        "description": "Registration and licensing for food processing, pharmaceutical production, and cosmetic manufacturing under FDA regulations."
       },
       {
-        "title": "Construction",
-        "description": "Building permits, construction licenses, and regulatory approval services."
-      },
-      {
-        "title": "Technology",
-        "description": "IT company registration, software licensing, and tech compliance support."
+        "title": "Import & Export",
+        "description": "Trade registration, import/export licenses, and customs compliance support."
       }
     ]
   },
